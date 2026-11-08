@@ -1,0 +1,74 @@
+{
+  "training_history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.4168278177882113,
+      "val_loss": 0.23499557727740872,
+      "val_accuracy": 0.9010695187165776,
+      "val_f1": 0.9017719428930936,
+      "learning_rate": 1.7777777777777777e-05
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.18357101041914486,
+      "val_loss": 0.20122756695167887,
+      "val_accuracy": 0.9215686274509803,
+      "val_f1": 0.9218232747644511,
+      "learning_rate": 1.3333333333333333e-05
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.10164189615809335,
+      "val_loss": 0.21759407069637543,
+      "val_accuracy": 0.9233511586452763,
+      "val_f1": 0.9232948886625357,
+      "learning_rate": 8.888888888888888e-06
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.05805008963500036,
+      "val_loss": 0.25112281813441467,
+      "val_accuracy": 0.9269162210338681,
+      "val_f1": 0.9267489624052738,
+      "learning_rate": 4.444444444444444e-06
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.04088325950987183,
+      "val_loss": 0.25286556459549403,
+      "val_accuracy": 0.9242424242424242,
+      "val_f1": 0.924172565790059,
+      "learning_rate": 0.0
+    }
+  ],
+  "test_metrics": {
+    "test_loss": 0.23442101985630062,
+    "test_accuracy": 0.9064171122994652,
+    "test_f1": 0.9065941584874877,
+    "test_precision": 0.9069497495968085,
+    "test_recall": 0.9064171122994652
+  },
+  "config": {
+    "DATA_PATH": "/content/dataset4.csv",
+    "CACHE_DIR": "./cache4",
+    "MODEL_SAVE_DIR": "./models4",
+    "MODEL_NAME": "mental/mental-bert-base-uncased",
+    "HF_TOKEN": "",
+    "BATCH_SIZE": 32,
+    "LEARNING_RATE": 2e-05,
+    "EPOCHS": 5,
+    "WARMUP_RATIO": 0.1,
+    "WEIGHT_DECAY": 0.01,
+    "MAX_LENGTH": 128,
+    "GRADIENT_ACCUMULATION_STEPS": 2,
+    "TRAIN_SPLIT": 0.7,
+    "VAL_SPLIT": 0.15,
+    "TEST_SPLIT": 0.15,
+    "FP16": true,
+    "DATALOADER_NUM_WORKERS": 0,
+    "EARLY_STOPPING_PATIENCE": 3,
+    "SAVE_STEPS": 500,
+    "EVAL_STEPS": 500
+  },
+  "timestamp": "2025-09-27T09:16:55.417037"
+}

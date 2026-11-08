@@ -1,0 +1,395 @@
+{
+    "avg_r2": 0.9650599151719406,
+    "avg_mae": 0.00154096947517246,
+    "thresholds_used": {
+        "small": 412876,
+        "large": 1651507
+    },
+    "r2_layers": [
+        {
+            "layer_name": "bert.embeddings.word_embeddings.weight",
+            "r2_score": 0.9998854142946492,
+            "num_samples": 16408627
+        },
+        {
+            "layer_name": "bert.embeddings.position_embeddings.weight",
+            "r2_score": 0.9795404869240352,
+            "num_samples": 275251
+        },
+        {
+            "layer_name": "bert.embeddings.token_type_embeddings.weight",
+            "r2_score": -0.26726293685598956,
+            "num_samples": 1075
+        },
+        {
+            "layer_name": "bert.encoder.layer.0.attention.self.query.weight",
+            "r2_score": 0.996277390558186,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.0.attention.self.key.weight",
+            "r2_score": 0.9956420978468314,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.0.attention.self.value.weight",
+            "r2_score": 0.9967422690651456,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.0.attention.output.dense.weight",
+            "r2_score": 0.9974010598893565,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.0.intermediate.dense.weight",
+            "r2_score": 0.9975661672133151,
+            "num_samples": 1651507
+        },
+        {
+            "layer_name": "bert.encoder.layer.0.output.dense.weight",
+            "r2_score": 0.9983455569568541,
+            "num_samples": 1651507
+        },
+        {
+            "layer_name": "bert.encoder.layer.1.attention.self.query.weight",
+            "r2_score": 0.9939746532909586,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.1.attention.self.key.weight",
+            "r2_score": 0.9969038409594635,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.1.attention.self.value.weight",
+            "r2_score": 0.9963270362399188,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.1.attention.output.dense.weight",
+            "r2_score": 0.993517732174246,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.1.intermediate.dense.weight",
+            "r2_score": 0.9985278305910291,
+            "num_samples": 1651507
+        },
+        {
+            "layer_name": "bert.encoder.layer.1.output.dense.weight",
+            "r2_score": 0.998033121130939,
+            "num_samples": 1651507
+        },
+        {
+            "layer_name": "bert.encoder.layer.2.attention.self.query.weight",
+            "r2_score": 0.9935661795048506,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.2.attention.self.key.weight",
+            "r2_score": 0.9944536144836053,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.2.attention.self.value.weight",
+            "r2_score": 0.9966468839292184,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.2.attention.output.dense.weight",
+            "r2_score": 0.9960558417729032,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.2.intermediate.dense.weight",
+            "r2_score": 0.9980592016826356,
+            "num_samples": 1651507
+        },
+        {
+            "layer_name": "bert.encoder.layer.2.output.dense.weight",
+            "r2_score": 0.9975617459868251,
+            "num_samples": 1651507
+        },
+        {
+            "layer_name": "bert.encoder.layer.3.attention.self.query.weight",
+            "r2_score": 0.995230398629041,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.3.attention.self.key.weight",
+            "r2_score": 0.9933370340154851,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.3.attention.self.value.weight",
+            "r2_score": 0.9958764790905029,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.3.attention.output.dense.weight",
+            "r2_score": 0.99078311378124,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.3.intermediate.dense.weight",
+            "r2_score": 0.9984591962092705,
+            "num_samples": 1651507
+        },
+        {
+            "layer_name": "bert.encoder.layer.3.output.dense.weight",
+            "r2_score": 0.9981946928220499,
+            "num_samples": 1651507
+        },
+        {
+            "layer_name": "bert.encoder.layer.4.attention.self.query.weight",
+            "r2_score": 0.9973075711345991,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.4.attention.self.key.weight",
+            "r2_score": 0.9977659790811637,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.4.attention.self.value.weight",
+            "r2_score": 0.9948040198297013,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.4.attention.output.dense.weight",
+            "r2_score": 0.9956406281779216,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.4.intermediate.dense.weight",
+            "r2_score": 0.9987461663239621,
+            "num_samples": 1651507
+        },
+        {
+            "layer_name": "bert.encoder.layer.4.output.dense.weight",
+            "r2_score": 0.9983982323964519,
+            "num_samples": 1651507
+        },
+        {
+            "layer_name": "bert.encoder.layer.5.attention.self.query.weight",
+            "r2_score": 0.9967685797161927,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.5.attention.self.key.weight",
+            "r2_score": 0.994687568099075,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.5.attention.self.value.weight",
+            "r2_score": 0.9951222636213912,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.5.attention.output.dense.weight",
+            "r2_score": 0.9965343395951053,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.5.intermediate.dense.weight",
+            "r2_score": 0.9979230597638107,
+            "num_samples": 1651507
+        },
+        {
+            "layer_name": "bert.encoder.layer.5.output.dense.weight",
+            "r2_score": 0.9987543460214953,
+            "num_samples": 1651507
+        },
+        {
+            "layer_name": "bert.encoder.layer.6.attention.self.query.weight",
+            "r2_score": 0.9941675902331104,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.6.attention.self.key.weight",
+            "r2_score": 0.9972271864613587,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.6.attention.self.value.weight",
+            "r2_score": 0.99611595659062,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.6.attention.output.dense.weight",
+            "r2_score": 0.9960385358549926,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.6.intermediate.dense.weight",
+            "r2_score": 0.9977964593420854,
+            "num_samples": 1651507
+        },
+        {
+            "layer_name": "bert.encoder.layer.6.output.dense.weight",
+            "r2_score": 0.9971090954347793,
+            "num_samples": 1651507
+        },
+        {
+            "layer_name": "bert.encoder.layer.7.attention.self.query.weight",
+            "r2_score": 0.9962744123031244,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.7.attention.self.key.weight",
+            "r2_score": 0.9965041999319837,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.7.attention.self.value.weight",
+            "r2_score": 0.994934947624443,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.7.attention.output.dense.weight",
+            "r2_score": 0.9956120664155155,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.7.intermediate.dense.weight",
+            "r2_score": 0.9976038292034548,
+            "num_samples": 1651507
+        },
+        {
+            "layer_name": "bert.encoder.layer.7.output.dense.weight",
+            "r2_score": 0.9972641644624681,
+            "num_samples": 1651507
+        },
+        {
+            "layer_name": "bert.encoder.layer.8.attention.self.query.weight",
+            "r2_score": 0.9950410538090237,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.8.attention.self.key.weight",
+            "r2_score": 0.9966817641105654,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.8.attention.self.value.weight",
+            "r2_score": 0.9963506682062593,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.8.attention.output.dense.weight",
+            "r2_score": 0.9952435682482271,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.8.intermediate.dense.weight",
+            "r2_score": 0.9977305487510404,
+            "num_samples": 1651507
+        },
+        {
+            "layer_name": "bert.encoder.layer.8.output.dense.weight",
+            "r2_score": 0.9970859861549761,
+            "num_samples": 1651507
+        },
+        {
+            "layer_name": "bert.encoder.layer.9.attention.self.query.weight",
+            "r2_score": 0.9964727133202562,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.9.attention.self.key.weight",
+            "r2_score": 0.9954619045086586,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.9.attention.self.value.weight",
+            "r2_score": 0.9941545352691554,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.9.attention.output.dense.weight",
+            "r2_score": 0.9964365278215438,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.9.intermediate.dense.weight",
+            "r2_score": 0.9981828306300096,
+            "num_samples": 1651507
+        },
+        {
+            "layer_name": "bert.encoder.layer.9.output.dense.weight",
+            "r2_score": 0.9978749831277458,
+            "num_samples": 1651507
+        },
+        {
+            "layer_name": "bert.encoder.layer.10.attention.self.query.weight",
+            "r2_score": 0.9954721855513622,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.10.attention.self.key.weight",
+            "r2_score": 0.9967209618336382,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.10.attention.self.value.weight",
+            "r2_score": 0.9969923492158588,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.10.attention.output.dense.weight",
+            "r2_score": 0.9966273316514799,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.10.intermediate.dense.weight",
+            "r2_score": 0.9986453321100079,
+            "num_samples": 1651507
+        },
+        {
+            "layer_name": "bert.encoder.layer.10.output.dense.weight",
+            "r2_score": 0.997803539947793,
+            "num_samples": 1651507
+        },
+        {
+            "layer_name": "bert.encoder.layer.11.attention.self.query.weight",
+            "r2_score": 0.9944997930283149,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.11.attention.self.key.weight",
+            "r2_score": 0.9963109082402576,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.11.attention.self.value.weight",
+            "r2_score": 0.9948018697403358,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.11.attention.output.dense.weight",
+            "r2_score": 0.9955671566641768,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "bert.encoder.layer.11.intermediate.dense.weight",
+            "r2_score": 0.9980132278783622,
+            "num_samples": 1651507
+        },
+        {
+            "layer_name": "bert.encoder.layer.11.output.dense.weight",
+            "r2_score": 0.9981850721917447,
+            "num_samples": 1651507
+        },
+        {
+            "layer_name": "bert.pooler.dense.weight",
+            "r2_score": 0.9959159457910624,
+            "num_samples": 412876
+        },
+        {
+            "layer_name": "classifier.weight",
+            "r2_score": -0.1414065893678227,
+            "num_samples": 1075
+        }
+    ]
+}

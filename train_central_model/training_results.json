@@ -1,0 +1,73 @@
+{
+  "training_history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.3214810651020252,
+      "val_loss": 0.18198492884528722,
+      "val_accuracy": 0.9284424379232505,
+      "val_f1": 0.9284292860325559,
+      "learning_rate": 1.7774725274725276e-05
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.1406580795328114,
+      "val_loss": 0.16824593624810305,
+      "val_accuracy": 0.9318284424379233,
+      "val_f1": 0.9318323331683117,
+      "learning_rate": 1.3337912087912089e-05
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.07329995463633912,
+      "val_loss": 0.21701905709229036,
+      "val_accuracy": 0.9306997742663657,
+      "val_f1": 0.9306946715498745,
+      "learning_rate": 8.9010989010989e-06
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.03802588611651015,
+      "val_loss": 0.2617015554825105,
+      "val_accuracy": 0.9345372460496614,
+      "val_f1": 0.934539768212659,
+      "learning_rate": 4.464285714285715e-06
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.02077897936174102,
+      "val_loss": 0.29505852651183506,
+      "val_accuracy": 0.9316027088036117,
+      "val_f1": 0.9316045594684065,
+      "learning_rate": 2.7472527472527476e-08
+    }
+  ],
+  "test_metrics": {
+    "test_loss": 0.16082742355308302,
+    "test_accuracy": 0.9404332129963899,
+    "test_f1": 0.9404297304633009,
+    "test_precision": 0.9404450237057957,
+    "test_recall": 0.9404332129963899
+  },
+  "config": {
+    "CACHE_DIR": "./cache_central",
+    "MODEL_SAVE_DIR": "./models_central",
+    "MODEL_NAME": "mental/mental-bert-base-uncased",
+    "HF_TOKEN": "",
+    "BATCH_SIZE": 32,
+    "LEARNING_RATE": 2e-05,
+    "EPOCHS": 5,
+    "WARMUP_RATIO": 0.1,
+    "WEIGHT_DECAY": 0.01,
+    "MAX_LENGTH": 128,
+    "GRADIENT_ACCUMULATION_STEPS": 2,
+    "TRAIN_SPLIT": 0.7,
+    "VAL_SPLIT": 0.15,
+    "TEST_SPLIT": 0.15,
+    "FP16": true,
+    "DATALOADER_NUM_WORKERS": 0,
+    "EARLY_STOPPING_PATIENCE": 3,
+    "SAVE_STEPS": 500,
+    "EVAL_STEPS": 500
+  },
+  "timestamp": "2025-12-02T17:36:38.266036"
+}

@@ -1,0 +1,74 @@
+{
+  "training_history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.3816420042251305,
+      "val_loss": 0.1550412950002485,
+      "val_accuracy": 0.9384478144513827,
+      "val_f1": 0.9411593221175094,
+      "learning_rate": 1.7777777777777777e-05
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.09917116593342365,
+      "val_loss": 0.16490890833342242,
+      "val_accuracy": 0.9768064228367529,
+      "val_f1": 0.976650114722856,
+      "learning_rate": 1.3333333333333333e-05
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.03521716338724307,
+      "val_loss": 0.11717424837924126,
+      "val_accuracy": 0.9776984834968778,
+      "val_f1": 0.9778189643313001,
+      "learning_rate": 8.888888888888888e-06
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.01896729641210674,
+      "val_loss": 0.16509304537774167,
+      "val_accuracy": 0.9785905441570026,
+      "val_f1": 0.9784950358874316,
+      "learning_rate": 4.444444444444444e-06
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.01326779292104198,
+      "val_loss": 0.15305794523576172,
+      "val_accuracy": 0.9776984834968778,
+      "val_f1": 0.9776241317029776,
+      "learning_rate": 0.0
+    }
+  ],
+  "test_metrics": {
+    "test_loss": 0.05593481504668792,
+    "test_accuracy": 0.982174688057041,
+    "test_f1": 0.9822890750855519,
+    "test_precision": 0.9825004117095428,
+    "test_recall": 0.982174688057041
+  },
+  "config": {
+    "DATA_PATH": "/content/dataset2.csv",
+    "CACHE_DIR": "./cache2",
+    "MODEL_SAVE_DIR": "./models2",
+    "MODEL_NAME": "mental/mental-bert-base-uncased",
+    "HF_TOKEN": "",
+    "BATCH_SIZE": 32,
+    "LEARNING_RATE": 2e-05,
+    "EPOCHS": 5,
+    "WARMUP_RATIO": 0.1,
+    "WEIGHT_DECAY": 0.01,
+    "MAX_LENGTH": 128,
+    "GRADIENT_ACCUMULATION_STEPS": 2,
+    "TRAIN_SPLIT": 0.7,
+    "VAL_SPLIT": 0.15,
+    "TEST_SPLIT": 0.15,
+    "FP16": true,
+    "DATALOADER_NUM_WORKERS": 0,
+    "EARLY_STOPPING_PATIENCE": 3,
+    "SAVE_STEPS": 500,
+    "EVAL_STEPS": 500
+  },
+  "timestamp": "2025-09-27T09:09:20.611385"
+}

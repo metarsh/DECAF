@@ -1,0 +1,74 @@
+{
+  "training_history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.28077312451239456,
+      "val_loss": 0.06098750387192578,
+      "val_accuracy": 0.9793103448275862,
+      "val_f1": 0.9793107138562791,
+      "learning_rate": 1.7754569190600522e-05
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.046525831979370734,
+      "val_loss": 0.047476927321907635,
+      "val_accuracy": 0.9870689655172413,
+      "val_f1": 0.9870673217893267,
+      "learning_rate": 1.3315926892950393e-05
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.0187526481849251,
+      "val_loss": 0.06782637557291703,
+      "val_accuracy": 0.9775862068965517,
+      "val_f1": 0.9775858071249751,
+      "learning_rate": 8.877284595300261e-06
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.006334928661475287,
+      "val_loss": 0.05449327316474975,
+      "val_accuracy": 0.9818965517241379,
+      "val_f1": 0.9818966728085284,
+      "learning_rate": 4.4386422976501306e-06
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.003260750779265757,
+      "val_loss": 0.05951051396235975,
+      "val_accuracy": 0.9836206896551725,
+      "val_f1": 0.9836205557576191,
+      "learning_rate": 0.0
+    }
+  ],
+  "test_metrics": {
+    "test_loss": 0.06750540064043693,
+    "test_accuracy": 0.9810344827586207,
+    "test_f1": 0.9810260204173217,
+    "test_precision": 0.9816018783103424,
+    "test_recall": 0.9810344827586207
+  },
+  "config": {
+    "DATA_PATH": "/content/dataset1.csv",
+    "CACHE_DIR": "./cache1",
+    "MODEL_SAVE_DIR": "./models1",
+    "MODEL_NAME": "mental/mental-bert-base-uncased",
+    "HF_TOKEN": "",
+    "BATCH_SIZE": 32,
+    "LEARNING_RATE": 2e-05,
+    "EPOCHS": 5,
+    "WARMUP_RATIO": 0.1,
+    "WEIGHT_DECAY": 0.01,
+    "MAX_LENGTH": 128,
+    "GRADIENT_ACCUMULATION_STEPS": 2,
+    "TRAIN_SPLIT": 0.7,
+    "VAL_SPLIT": 0.15,
+    "TEST_SPLIT": 0.15,
+    "FP16": true,
+    "DATALOADER_NUM_WORKERS": 0,
+    "EARLY_STOPPING_PATIENCE": 3,
+    "SAVE_STEPS": 500,
+    "EVAL_STEPS": 500
+  },
+  "timestamp": "2025-09-27T09:02:24.803902"
+}

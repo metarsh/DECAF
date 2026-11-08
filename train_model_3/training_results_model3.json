@@ -1,0 +1,66 @@
+{
+  "training_history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.563536041378975,
+      "val_loss": 0.4100039375550819,
+      "val_accuracy": 0.8422590068159689,
+      "val_f1": 0.8801299557613721,
+      "learning_rate": 1.7751479289940828e-05
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.3289695707584421,
+      "val_loss": 0.4596366925221501,
+      "val_accuracy": 0.9250243427458618,
+      "val_f1": 0.9325429520171487,
+      "learning_rate": 1.3313609467455622e-05
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.19529698023572564,
+      "val_loss": 0.8029103813213155,
+      "val_accuracy": 0.9464459591041869,
+      "val_f1": 0.9425104230665077,
+      "learning_rate": 8.875739644970414e-06
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.131991182823355,
+      "val_loss": 0.9466688666408035,
+      "val_accuracy": 0.9454722492697176,
+      "val_f1": 0.9411510596263832,
+      "learning_rate": 4.437869822485207e-06
+    }
+  ],
+  "test_metrics": {
+    "test_loss": 0.29692625457590277,
+    "test_accuracy": 0.8657587548638133,
+    "test_f1": 0.8962589118572837,
+    "test_precision": 0.9513160392036849,
+    "test_recall": 0.8657587548638133
+  },
+  "config": {
+    "DATA_PATH": "/content/dataset3.csv",
+    "CACHE_DIR": "./cache3",
+    "MODEL_SAVE_DIR": "./models3",
+    "MODEL_NAME": "mental/mental-bert-base-uncased",
+    "HF_TOKEN": "",
+    "BATCH_SIZE": 32,
+    "LEARNING_RATE": 2e-05,
+    "EPOCHS": 5,
+    "WARMUP_RATIO": 0.1,
+    "WEIGHT_DECAY": 0.01,
+    "MAX_LENGTH": 128,
+    "GRADIENT_ACCUMULATION_STEPS": 2,
+    "TRAIN_SPLIT": 0.7,
+    "VAL_SPLIT": 0.15,
+    "TEST_SPLIT": 0.15,
+    "FP16": true,
+    "DATALOADER_NUM_WORKERS": 0,
+    "EARLY_STOPPING_PATIENCE": 3,
+    "SAVE_STEPS": 500,
+    "EVAL_STEPS": 500
+  },
+  "timestamp": "2025-09-27T09:12:17.589172"
+}
